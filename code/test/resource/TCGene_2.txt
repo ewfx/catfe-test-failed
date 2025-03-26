@@ -1,0 +1,4 @@
+1. Login to www.internetbanking.com, Customer ID/User ID should be displayed on Homepage
+2. Verify that the Customer ID input contains only digits, no special characters or alphabets, is between 6 to 10 digits long, and does not start or end with spaces
+3. Enter a valid password that is 8–16 characters long, contains at least one uppercase letter, one lowercase letter, one number, one special character (!@#$%^&*), has no spaces, avoids common patterns like "123456" or "admin123", and is not left blank.
+4. Enter a valid 6-digit OTP that contains only numbers, does not include letters or special characters, is not blank, has no leading or trailing spaces, and is not a repeated or predictable sequence like "000000" or "123456".

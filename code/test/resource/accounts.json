@@ -1,0 +1,63 @@
+{
+  "openapiVersion": "3.0.1",
+  "info": {
+    "title": "OpenAPI Definition",
+    "version": "v0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "description": "Generated server URL"
+    }
+  ],
+  "paths": [
+    {
+      "path": "/api/accounts",
+      "method": "POST",
+      "tags": ["accounts-controllers"],
+      "summary": "Get account details",
+      "description": "Get account details",
+      "operationId": "getAccounts",
+      "requestBody": {
+        "contentType": "application/json",
+        "schema": {
+          "$ref": "#/components/schemas/Accounts"
+        }
+      },
+      "responses": {
+        "200": {
+          "description": "Get account details",
+          "content": {
+            "*/*": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }    
+  ],
+  "components": {
+    "schemas": {
+      "Accounts": {
+        "type": "object",
+        "required": ["age", "email", "name"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 30
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "email": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

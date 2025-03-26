@@ -1,0 +1,39 @@
+User Story: Card Payment Integration
+Title: As a user, I want to make payments using my credit or debit card so that I can complete purchases easily and securely.
+
+Acceptance Criteria:
+Card Input Fields:
+The user can enter the following:
+Card Number
+Expiration Date (MM/YY)
+CVV
+Cardholder Name
+Card Type Detection:
+
+The system should detect card type (Visa, MasterCard, etc.) automatically based on card number.
+
+Validation:
+Card number should pass the validation.
+CVV length should match card type.
+Expiry date should not be in the past.
+Payment Processing:
+
+On successful validation, the card details should be sent securely to the payment gateway.
+
+The system should display success/failure response to the user.
+
+Security:
+Card data should be tokenized before sending to backend.
+PCI-DSS compliance must be ensured.
+Sensitive data should not be logged or stored.
+Error Handling:
+
+User should see descriptive error messages for:
+Invalid card format
+Expired card
+Failed transaction
+
+UI/UX:
+Form must be responsive and user-friendly.
+Show loading state during transaction.
+Success page with transaction ID confirmation
