@@ -24,25 +24,39 @@ The application is divided into three primary modules:
 2.	Fraud Detection and Risk Scoring: Implements tools for identifying fraudulent activities and assessing associated risks.
 3.	Loan and Credit Risk Assessment: Facilitates the evaluation of loan applications and credit risk analysis.
 
-
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
-
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
-
 ## 🏃 How to Run
+Install python and its dependencies. 
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone git@github.com:ewfx/catfe-test-failed.git
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install longchain
    ```
-3. Run the project  
+3. Install dependencies  
    ```sh
-   npm start  # or python app.py
+   pip install -qU "langchain[groq]"
+   ```
+4. Install dependencies  
+   ```sh
+   pip install requests 
+   ```
+5. Install dependencies  
+   ```sh
+   pip install XMLSchema
+   ```
+6. Install dependencies  
+   ```sh
+   pip install scikit-learn
+   ```
+7. Install dependencies  
+   ```sh
+   pip install matplotlib 
+   ```
+8. Run the project  
+   ```sh
+   streamlit run .\index.py
    ```
 
 ## 🏗️ Tech Stack
