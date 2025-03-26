@@ -57,7 +57,7 @@ Install python and its dependencies.
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: Streamlit 
-- 🔹 Backend: Python / Groq Python Library / JSON / OS Module
+- 🔹 Backend: Python / Groq Python Library / JSON / OS Module /Long chain
 - 🔹 Other: Groq Open API / Swagger/OpenAPI
 - 🔹 Machine Learning: scikit-learn / pandas
 
